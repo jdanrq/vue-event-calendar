@@ -27,17 +27,17 @@ export default {
     return {
       demoEvents: [{
         date: '2018/07/24',
-        hora: '18:25',
+        hour: '18:25',
         title: 'Diana Hernandez',
         desc: 'Alaciado permanente Alaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanente'
       },{
         date: '2018/07/27',
-          hora: '12:00',
+         hour: '12:00',
         title: 'Sofia Hernández',
         desc: 'Teñido de cabello (Color Castaño)'
       },{
         date: '2018/07/24',
-        hora: '13:00',
+        hour: '13:00',
         title: 'Louisa Smith',
         desc: 'Sesión de spa '
       }]

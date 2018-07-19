@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <h3 class="title">{{index+1}}. {{event.title}}</h3>
-    <p class="time" style="font-size:20px">{{event.hora}}</p>
+    <p class="time" style="font-size:20px">{{event.hour}}</p>
     <p class="desc">{{event.desc}}</p>
   </div>
 </template>
