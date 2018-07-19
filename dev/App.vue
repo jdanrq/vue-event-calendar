@@ -26,40 +26,20 @@ export default {
   data () {
     return {
       demoEvents: [{
-        date: `${today.getFullYear()}/${today.getMonth() + 1}/${today.getDate()}`,
-        title: 'Title-1',
-        desc: 'longlonglong description'
+        date: '2018/07/24',
+        hora: '18:25',
+        title: 'Diana Hernandez',
+        desc: 'Alaciado permanente Alaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanenteAlaciado permanente'
       },{
-        date: `${today.getFullYear()}/${today.getMonth() + 1}/${today.getDate()}`,
-        title: 'Title-1',
-        desc: 'longlonglong description'
+        date: '2018/07/27',
+          hora: '12:00',
+        title: 'Sofia Hernández',
+        desc: 'Teñido de cabello (Color Castaño)'
       },{
-        date: `${today.getFullYear()}/${today.getMonth() + 1}/${today.getDate()}`,
-        title: 'Title-1',
-        desc: 'longlonglong description'
-      },{
-        date: `${today.getFullYear()}/${today.getMonth() + 1}/${today.getDate()}`,
-        title: 'Title-1',
-        desc: 'longlonglong description'
-      },{
-        date: `${today.getFullYear()}/${today.getMonth() + 1}/${today.getDate()}`,
-        title: 'Title-1',
-        desc: 'longlonglong description'
-      },{
-        date: `${today.getFullYear()}/${today.getMonth() + 1}/${today.getDate()}`,
-        title: 'Title-1',
-        desc: 'longlonglong description'
-      },{
-        date: `${today.getFullYear()}/${today.getMonth() + 1}/15`,
-        title: 'Title-1',
-        desc: 'longlonglong description'
-      },{
-        date: `${today.getFullYear()}/${today.getMonth() + 1}/24`,
-        title: 'Title-2'
-      },{
-        date: `${today.getFullYear()}/${today.getMonth() === 11 ? 1 : today.getMonth() + 2}/06`,
-        title: 'Title-3',
-        desc: 'description'
+        date: '2018/07/24',
+        hora: '13:00',
+        title: 'Louisa Smith',
+        desc: 'Sesión de spa '
       }]
     }
   },

@@ -1,7 +1,8 @@
 <template>
   <div class="wrapper">
     <h3 class="title">{{index+1}}. {{event.title}}</h3>
-    <p class="time" style="font-size:20px">{{event.hora}}</p>
+    <!--<p class="time">{{dateTimeFormatter(Date.parse(new Date(event.date)),i18n[locale].fullFormat)}}</p>-->
+    <p class="time" style="font-size:15px">{{dateTimeFormatter(Date.parse(new Date(event.date)),i18n[locale].fullFormat)}}</p>
     <p class="desc">{{event.desc}}</p>
   </div>
 </template>

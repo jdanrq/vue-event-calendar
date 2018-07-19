@@ -6,7 +6,8 @@
     <div class="cal-events">
       <slot>
         <div v-for="(event, index) in events" class="event-item" :key="index">
-          <cal-event-item :event="event" :index="index" :locale="locale"></cal-event-item>
+            <cal-event-general v-if="dayEvents.date   == 'all'" :event="event" :index="index" :locale="locale"></cal-event-general>
+            <cal-event-item v-if="dayEvents.date   !== 'all'" :event="event" :index="index" :locale="locale"></cal-event-item>
         </div>
       </slot>
     </div>
@@ -16,6 +17,7 @@
 <script>
 import i18n from '../i18n.js'
 import { dateTimeFormatter } from '../tools.js'
+import calEventGeneral from './cal-event-general.vue'
 import calEventItem from './cal-event-item.vue'
 export default {
   name: 'cal-events',
@@ -25,6 +27,7 @@ export default {
     }
   },
   components: {
+    'cal-event-general': calEventGeneral,
     'cal-event-item': calEventItem
   },
   props: {
